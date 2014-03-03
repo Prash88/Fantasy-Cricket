@@ -1,0 +1,6 @@
+<div data-ng-controller="IPLController">
+    <h2>IPL Teams</h2>
+    <div data-ng-repeat="iplclub in iplclubs">
+        <a href="#/iplclubs/{{ $index }}">{{ iplclub.name }}</a>
+    </div>
+</div>

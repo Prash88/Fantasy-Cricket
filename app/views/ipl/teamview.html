@@ -1,0 +1,11 @@
+<div data-ng-controller="IPLController">
+    <h2>{{ iplclub.name }}</h2>
+    <!--<ul>
+    <div data-ng-repeat="iplplayer in iplplayers | filter:iplclub.name ">
+        <li>{{ iplplayer.Player }}</li>
+    </div>
+    </ul> -->
+    <img src="{{ iplclub.logo }}" />
+    <p><strong>Abbreviation: </strong>{{ iplclub.abbr }}</p>
+    <p><a href="#/iplclubs">Back</a></p>
+</div>

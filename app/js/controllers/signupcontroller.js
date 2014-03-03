@@ -24,11 +24,18 @@ angular.module('fantasyApp.controllers.signup', [])
       $scope.provider = "default";
 
       $scope.createAccount = function() {
-        if( !$scope.email ) {
+        if( !$scope.name ) {
+          $scope.err = 'Please enter your name';
+        }
+        else if( !$scope.email ) {
           $scope.err = 'Please enter an email address';
         }
+
         else if( !$scope.pass ) {
           $scope.err = 'Please enter a password';
+        }
+        else if( !$scope.favouriteteam ) {
+            $scope.err = 'Please enter a favouriteteam';
         }
         else {
           loginService.createAccount($scope.name, $scope.email, $scope.pass, function(err, user) {

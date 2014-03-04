@@ -42,10 +42,18 @@ angular.module('fantasyApp.controllers.leagues', ['fantasyApp.services.leagues']
                 }
                 check.on('value', function(snapshot) {
                     if(snapshot.val() === null) {
-                        console.log('User does not exist.');
                     } else {
-                        var name = snapshot.val().name;
-                        console.log('Found : '+ name);
+                            var users = snapshot.val().users;
+                            var alreadyThere = false;
+                            users.filter(function(val) {
+                                if($scope.auth.id == val)
+                                    alreadyThere = true;
+                                });
+                            if(!alreadyThere)
+                            {
+                                users.push($scope.auth.id);
+                                console.log("users"+users);
+                            }
                     }
                 });
             }
@@ -53,4 +61,5 @@ angular.module('fantasyApp.controllers.leagues', ['fantasyApp.services.leagues']
             $scope.removeLeague = function(leagueId) {
                 Leagues.removeLeague(leagueId);
             }
+
         }])

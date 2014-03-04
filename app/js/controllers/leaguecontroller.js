@@ -35,6 +35,21 @@ angular.module('fantasyApp.controllers.leagues', ['fantasyApp.services.leagues']
                 });
             }
 
+            $scope.addtoleague = function() {
+                var check;
+                if(!!$scope.key) {
+                    check = Leagues.find($scope.key);
+                }
+                check.on('value', function(snapshot) {
+                    if(snapshot.val() === null) {
+                        console.log('User does not exist.');
+                    } else {
+                        var name = snapshot.val().name;
+                        console.log('Found : '+ name);
+                    }
+                });
+            }
+
             $scope.removeLeague = function(leagueId) {
                 Leagues.removeLeague(leagueId);
             }

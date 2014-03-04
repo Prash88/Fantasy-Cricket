@@ -30,11 +30,10 @@ angular.module('fantasyApp.controllers.signup', [])
         else if( !$scope.email ) {
           $scope.err = 'Please enter an email address';
         }
-
         else if( !$scope.pass ) {
           $scope.err = 'Please enter a password';
         }
-        else if( !$scope.favouriteteam ) {
+        else if( !$scope.favteam ) {
             $scope.err = 'Please enter a favouriteteam';
         }
         else {
@@ -43,9 +42,9 @@ angular.module('fantasyApp.controllers.signup', [])
               $scope.err = err;
             }
             else {
-              $scope.login(function(err) {
+                $scope.login(function(err) {
                 if( !err ) {
-                  loginService.createProfile(user.id, $scope.name, user.email, 0, $scope.favouriteteam);
+                  loginService.createProfile(user.id, $scope.name, user.email, 0, $scope.favteam.name);
                 }
               });
             }

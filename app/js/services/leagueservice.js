@@ -21,7 +21,7 @@ angular.module('fantasyApp.services.leagues', ['fantasyApp.services.firebaseRefs
                     return FireRef.leagues().push({
                         name: league.name,
                         commissionerId: commissioner.id,
-                        fantasyTeams: []
+                        users: [commissioner.id]
                     }, cb).name();
                 }
                 , removeLeague: function(leagueId) {

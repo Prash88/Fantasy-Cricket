@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61bea996-a283-4426-94a5-38f3f7b9775d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/game/view.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/app.js" afterPath="$PROJECT_DIR$/app/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/config.js" afterPath="$PROJECT_DIR$/app/js/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/leagues/edit.html" afterPath="$PROJECT_DIR$/app/views/leagues/edit.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/controllers/headercontroller.js" afterPath="$PROJECT_DIR$/app/js/controllers/headercontroller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/controllers/iplcontroller.js" afterPath="$PROJECT_DIR$/app/js/controllers/iplcontroller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/prash88.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/controllers/leaguecontroller.js" afterPath="$PROJECT_DIR$/app/js/controllers/leaguecontroller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/services/leagueservice.js" afterPath="$PROJECT_DIR$/app/js/services/leagueservice.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/leagues/list.html" afterPath="$PROJECT_DIR$/app/views/leagues/list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/services/profilecreator.js" afterPath="$PROJECT_DIR$/app/js/services/profilecreator.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/signup.html" afterPath="$PROJECT_DIR$/app/views/users/signup.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/leagues/view.html" afterPath="$PROJECT_DIR$/app/views/leagues/view.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/controllers/signupcontroller.js" afterPath="$PROJECT_DIR$/app/js/controllers/signupcontroller.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Fantasy-Cricket.iws" />
@@ -35,64 +32,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="iplcontroller.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/js/controllers/iplcontroller.js">
+      <file leaf-file-name="signupcontroller.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/js/controllers/signupcontroller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="28" selection-start="580" selection-end="593" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+            <state line="46" column="38" selection-start="1467" selection-end="1467" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="1003">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="view.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/game/view.html">
+      <file leaf-file-name="loginservice.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/js/services/loginservice.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="84" selection-start="417" selection-end="427" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="340">
+            <state line="36" column="8" selection-start="1164" selection-end="1164" vertical-scroll-proportion="0.0" vertical-offset="122" max-vertical-offset="765">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="headercontroller.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/js/controllers/headercontroller.js">
+      <file leaf-file-name="profilecreator.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/js/services/profilecreator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="34" selection-start="659" selection-end="659" vertical-scroll-proportion="0.44479004" vertical-offset="54" max-vertical-offset="697">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="leaguecontroller.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/js/controllers/leaguecontroller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="51" selection-start="668" selection-end="668" vertical-scroll-proportion="0.0" vertical-offset="55" max-vertical-offset="782">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="leagueservice.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/js/services/leagueservice.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="31" selection-start="835" selection-end="849" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/leagues/list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="33" selection-start="107" selection-end="107" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="289">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="view.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/leagues/view.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="50" selection-start="236" selection-end="236" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="187">
+            <state line="8" column="30" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
               <folding />
             </state>
           </provider>
@@ -101,25 +62,61 @@
       <file leaf-file-name="edit.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/leagues/edit.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="6" selection-start="772" selection-end="772" vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="425">
+            <state line="5" column="54" selection-start="282" selection-end="309" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="425">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/js/app.js">
+      <file leaf-file-name="view.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/players/view.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="4" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="204">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/js/config.js">
+      <file leaf-file-name="teamlist.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/ipl/teamlist.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="39" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
+            <state line="2" column="20" selection-start="73" selection-end="87" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="187">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="teamview.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/ipl/teamview.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="272">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/default.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="119">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="signup.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/users/signup.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="46" selection-start="550" selection-end="550" vertical-scroll-proportion="0.3306321" vertical-offset="0" max-vertical-offset="617">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/leagues/list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="44" selection-start="143" selection-end="181" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="391">
               <folding />
             </state>
           </provider>
@@ -143,18 +140,19 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/js/services/profilecreator.js" />
-        <option value="$PROJECT_DIR$/app/js/controllers/signupcontroller.js" />
         <option value="$PROJECT_DIR$/app/js/config.js" />
-        <option value="$PROJECT_DIR$/app/views/users/signup.html" />
         <option value="$PROJECT_DIR$/app/js/app.js" />
         <option value="$PROJECT_DIR$/app/views/game/view.html" />
         <option value="$PROJECT_DIR$/app/js/controllers/iplcontroller.js" />
-        <option value="$PROJECT_DIR$/app/js/controllers/leaguecontroller.js" />
-        <option value="$PROJECT_DIR$/app/views/leagues/list.html" />
         <option value="$PROJECT_DIR$/app/views/leagues/view.html" />
         <option value="$PROJECT_DIR$/app/views/leagues/edit.html" />
         <option value="$PROJECT_DIR$/app/js/controllers/headercontroller.js" />
+        <option value="$PROJECT_DIR$/app/views/leagues/list.html" />
+        <option value="$PROJECT_DIR$/app/js/controllers/leaguecontroller.js" />
+        <option value="$PROJECT_DIR$/app/js/services/leagueservice.js" />
+        <option value="$PROJECT_DIR$/app/js/services/profilecreator.js" />
+        <option value="$PROJECT_DIR$/app/js/controllers/signupcontroller.js" />
+        <option value="$PROJECT_DIR$/app/views/users/signup.html" />
       </list>
     </option>
   </component>
@@ -464,8 +462,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="appearance" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
@@ -527,13 +529,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2301496" sideWeight="0.49969825" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2301496" sideWeight="0.49969825" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2088111" sideWeight="0.7698504" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2088111" sideWeight="0.7698504" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5003018" order="-1" side_tool="true" content_ui="tabs" />
@@ -547,6 +549,25 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2301496" sideWeight="0.49969825" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5003018" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2088111" sideWeight="0.7698504" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -560,20 +581,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/js/controllers/playercontroller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/playerimport.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="27931">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/js/services/iplservice.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="27812">
@@ -581,93 +588,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/ipl/teamlist.html">
+    <entry file="file://$PROJECT_DIR$/app/js/services/firerefservice.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="6" selection-start="193" selection-end="193" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="187">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="643">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/controllers/signincontroller.js">
+    <entry file="file://$PROJECT_DIR$/app/js/controllers/playercontroller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/controllers/signupcontroller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="954" selection-end="954" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1020">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/controllers/iplcontroller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="28" selection-start="580" selection-end="593" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/game/view.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="84" selection-start="417" selection-end="427" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="340">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/services/leagueservice.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="31" selection-start="835" selection-end="849" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/js/controllers/leaguecontroller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="51" selection-start="668" selection-end="668" vertical-scroll-proportion="0.0" vertical-offset="55" max-vertical-offset="782">
+        <state line="16" column="45" selection-start="564" selection-end="564" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1037">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/leagues/list.html">
+    <entry file="file://$PROJECT_DIR$/app/js/services/leagueservice.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="33" selection-start="107" selection-end="107" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="289">
+        <state line="28" column="36" selection-start="1130" selection-end="1130" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/leagues/view.html">
+    <entry file="file://$PROJECT_DIR$/app/js/controllers/signincontroller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="50" selection-start="236" selection-end="236" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="187">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="843">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="643">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/players/view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="643">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/ipl/teamview.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="643">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/ipl/teamlist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="20" selection-start="73" selection-end="87" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="187">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/leagues/edit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="6" selection-start="772" selection-end="772" vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="425">
+        <state line="5" column="54" selection-start="282" selection-end="309" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="425">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/app.js">
+    <entry file="file://$PROJECT_DIR$/app/views/leagues/list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="4" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+        <state line="3" column="44" selection-start="143" selection-end="181" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="391">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/config.js">
+    <entry file="file://$PROJECT_DIR$/app/js/controllers/signupcontroller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="39" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0" vertical-offset="21" max-vertical-offset="731">
+        <state line="46" column="38" selection-start="1467" selection-end="1467" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="1003">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/controllers/headercontroller.js">
+    <entry file="file://$PROJECT_DIR$/app/js/services/loginservice.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="34" selection-start="659" selection-end="659" vertical-scroll-proportion="0.44479004" vertical-offset="54" max-vertical-offset="697">
+        <state line="36" column="8" selection-start="1164" selection-end="1164" vertical-scroll-proportion="0.0" vertical-offset="122" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/services/profilecreator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="30" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="46" selection-start="550" selection-end="550" vertical-scroll-proportion="0.3306321" vertical-offset="0" max-vertical-offset="617">
           <folding />
         </state>
       </provider>

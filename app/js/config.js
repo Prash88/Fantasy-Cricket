@@ -19,7 +19,8 @@ app.config(['$routeProvider',
       .when('/leagues/:leagueId/edit',  { templateUrl: 'views/leagues/edit.html', authRequired: true })
       .when('/players',                 { templateUrl: 'views/players/list.html', authRequired: true })
       .when('/players/:playerId',       { templateUrl: 'views/players/view.html', authRequired: true })
-      .otherwise(       { redirectTo: '/' });
+      .when('/game',                    { templateUrl: 'views/game/view.html', authRequired: true })
+      .otherwise({ redirectTo: '/' });
     }])
   
   // establish authentication

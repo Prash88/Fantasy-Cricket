@@ -1,11 +1,10 @@
 <div data-ng-controller="LeaguesController" data-ng-init="findLeagues()">
-    <h2>Leagues</h2>
-    <h3>All Leagues</h3>
+    <h2>Leagues created by me</h2>
     <ul class="unstyled">
-        <li data-ng-repeat="league in leagues">
-            <a href="#/leagues/{{ league.$id }}">{{league.name}}</a>
+        <li data-ng-repeat="league in leagues | filter:{commissionerId:searchText}">
+            <a href="#/leagues/{{ league.$id }}">{{league.name}} </a> Key : {{ league.$id }}
             (<a href="#/leagues/{{ league.$id }}/edit">Edit</a>)
-            (<a href="" data-ng-click="removeLeague('{{ league.$id }}')" >Remove</a>)
+            (<a href="" data-ng-click="removeLeague('{{ league.$id }}')" >Delete</a>)
         </li>
     </ul>
     <br>

@@ -1,0 +1,14 @@
+<div data-ng-controller="IPLController">
+    <div class="span6">
+        <div class="control-group">
+            <h2>Select team</h2>
+            <select id="selectclub" name="selectclub" ng-model="selectclub" ng-change="setSearchText()" ng-options="c.name for c in iplclubs" ></select>
+        </div>
+        <div class="control-group">
+            <li id="playerlist" ng-repeat="player in iplplayers | filter:{Club:searchText}">
+                {{ player.Player }}
+            </li>
+        </div>
+    </div>
+</div>
+

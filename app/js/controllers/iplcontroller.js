@@ -14,4 +14,8 @@ angular.module('fantasyApp.controllers.ipl', ['fantasyApp.services.ipl'])
             $scope.iplclubs = IPL.clubs;
             $scope.positions = IPL.positions;
             $scope.iplclub = IPL.clubs[$routeParams['iplteamindex']];
+            $scope.setSearchText = function()
+            {
+                $scope.searchText = $scope.selectclub.name;
+            }
         }]);

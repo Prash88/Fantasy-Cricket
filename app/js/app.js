@@ -9,4 +9,4 @@ var app = angular.module('fantasyApp',
   , 'fantasyApp.controllers.ipl'
   , 'fantasyApp.controllers.leagues'
   , 'firebase', 'ui.bootstrap', 'ngRoute']
-  )
+  );

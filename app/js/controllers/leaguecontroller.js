@@ -15,6 +15,7 @@ angular.module('fantasyApp.controllers.leagues', ['fantasyApp.services.leagues']
             $scope.leagueId = $routeParams.leagueId;
 
             $scope.findLeagues = function() {
+                $scope.searchText = $scope.auth.id;
                 $scope.leagues = Leagues.collection();
             }
 

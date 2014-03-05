@@ -40,19 +40,29 @@ angular.module('fantasyApp.controllers.leagues', ['fantasyApp.services.leagues']
                 if(!!$scope.key) {
                     check = Leagues.find($scope.key);
                 }
-                check.on('value', function(snapshot) {
+                check.once('value', function(snapshot) {
                     if(snapshot.val() === null) {
                     } else {
                             var users = snapshot.val().users;
                             var alreadyThere = false;
+                            var len = 0;
                             users.filter(function(val) {
+                                len = len+1;
                                 if($scope.auth.id == val)
                                     alreadyThere = true;
                                 });
                             if(!alreadyThere)
                             {
-                                users.push($scope.auth.id);
-                                console.log("users"+users);
+                                Leagues.updateUser($scope.key, $scope.auth.id, len, function(err) {
+                                    if (!err) {
+                                        console.log("gr8");
+                                        $scope.$apply();
+                                    }
+                                    else
+                                    {
+                                        console.log("not");
+                                    }
+                            });
                             }
                     }
                 });

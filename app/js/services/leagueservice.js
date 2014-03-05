@@ -24,6 +24,9 @@ angular.module('fantasyApp.services.leagues', ['fantasyApp.services.firebaseRefs
                         users: [commissioner.id]
                     }, cb).name();
                 }
+                , updateUser: function(key, id, len, cb) {
+                    return FireRef.leagues().child('/'+key).child('/users').child(len).set(id, cb);
+                }
                 , removeLeague: function(leagueId) {
                     var league = FireRef.leagues().child('/'+leagueId)
                     league.remove();

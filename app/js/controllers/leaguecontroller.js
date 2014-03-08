@@ -44,6 +44,7 @@ angular.module('fantasyApp.controllers.leagues', ['fantasyApp.services.leagues']
                     if(snapshot.val() === null) {
                     } else {
                             var users = snapshot.val().users;
+                            var commid = snapshot.val().commissionerId;
                             var alreadyThere = false;
                             var len = 0;
                             users.filter(function(val) {
@@ -53,16 +54,23 @@ angular.module('fantasyApp.controllers.leagues', ['fantasyApp.services.leagues']
                                 });
                             if(!alreadyThere)
                             {
-                                Leagues.updateUser($scope.key, $scope.auth.id, len, function(err) {
-                                    if (!err) {
-                                        console.log("gr8");
-                                        $scope.$apply();
+                                //Leagues.updateUser($scope.key, $scope.auth.id, len, function(err) {
+                                var user = Leagues.findUser($scope.auth.id);
+                                user.once('value', function(snapshot) {
+                                    if(snapshot.val() === null) {
+                                    } else {
+                                        var username = snapshot.val().name;
+                                        Leagues.notifyUser(commid, $scope.auth.id, username, function(err) {
+                                            if (!err) {
+                                                $scope.$apply();
+                                            }
+                                            else
+                                            {
+                                                console.log("noooo");
+                                            }
+                                        });
                                     }
-                                    else
-                                    {
-                                        console.log("not");
-                                    }
-                            });
+                                });
                             }
                     }
                 });

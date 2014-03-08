@@ -20,6 +20,7 @@ app.config(['$routeProvider',
       .when('/players',                 { templateUrl: 'views/players/list.html', authRequired: true })
       .when('/players/:playerId',       { templateUrl: 'views/players/view.html', authRequired: true })
       .when('/game',                    { templateUrl: 'views/game/view.html', authRequired: true })
+      .when('/notification',                    { templateUrl: 'views/notification/view.html', authRequired: true })
       .otherwise({ redirectTo: '/' });
     }])
   

@@ -25,6 +25,10 @@ angular.module('fantasyApp.controllers.header', ['fantasyApp.services.login'])
               "title": "Leagues",
               "link": "/leagues"
           }
+          , {
+              "title": "Notifications",
+              "link": "/notification"
+          }
       ];
         $scope.$on('$routeChangeSuccess', function() {
             $scope.navbarEntries.forEach(

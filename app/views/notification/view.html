@@ -1,18 +1,6 @@
-<div data-ng-controller="LeaguesController" data-ng-init="findLeagues()">
-    <h2>Leagues created by me</h2>
-    <ul class="unstyled">
-        <li data-ng-repeat="league in leagues | filter:{commissionerId:searchText}">
-            <a href="#/leagues/{{ league.$id }}">{{league.name}} </a> Key : {{ league.$id }}
-            (<a href="#/leagues/{{ league.$id }}/edit">Edit</a>)
-            (<a href="" data-ng-click="removeLeague('{{ league.$id }}')" >Delete</a>)
-        </li>
-    </ul>
-    <br>
-    <div>
-        Enter key : <input type="text" data-ng-model="key" id="key" name="key"><br>
-        <button type="submit" class="btn btn-primary" data-ng-click="addtoleague()">Add to league</button>
+<div data-ng-controller="LeaguesController" data-ng-init="findNotifications()">
+    <h2>Notifications</h2>
+    <div class="alert" data-ng-repeat="(key, value) in notifications">
+        <strong>{{ value }}</strong> wants to join your league.
     </div>
-
-    <br>
-    <a href="#/leagues/create">Create a new league</a>
 </div>

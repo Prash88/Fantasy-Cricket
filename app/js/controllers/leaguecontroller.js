@@ -25,6 +25,12 @@ angular.module('fantasyApp.controllers.leagues', ['fantasyApp.services.leagues']
                 }
             }
 
+            $scope.findNotifications = function () {
+                if(!!$scope.auth.id) {
+                    angularFire(Leagues.findUser($scope.auth.id).child('/notifications'), $scope, 'notifications')
+                }
+            }
+
             $scope.createLeague = function() {
                 var leagueId = Leagues.create($scope.league, $scope.auth, function(err) {
                     if (!err) {
